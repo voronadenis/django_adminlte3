@@ -5,6 +5,6 @@ description = "django_adminlte3"
 authors = ["voronadenis <d.vorona@forteholding.ru>"]
 repository = "https://github.com/voronadenis/django_adminlte3"
 packages = [
-    { include = "adminlte3" },
-    { include = "adminlte3_theme" },
+    { include = "adminlte3", from="src" },
+    { include = "adminlte3_theme", from="src" },
 ]
