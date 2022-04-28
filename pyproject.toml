@@ -4,8 +4,7 @@ version = "0.0.1"
 description = "django_adminlte3"
 authors = ["voronadenis <d.vorona@forteholding.ru>"]
 repository = "https://github.com/voronadenis/django_adminlte3"
-
 packages = [
-    { include = "adminlte3" },
+    { include = "adminlte3"},
     { include = "adminlte3_theme" },
 ]
